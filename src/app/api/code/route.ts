@@ -6,7 +6,7 @@ import { OpenAIStream, StreamingTextResponse } from "ai";
 import { ParamsValidator } from "@/lib/validators/params-validator";
 import { buildMessages } from "@/lib/prompt";
 
-export const maxDuration = 180;
+export const maxDuration = 10;
 
 export const POST = async (req: NextRequest) => {
   try {
